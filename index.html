@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neural Networks: ANN & CNN</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @media screen and (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .card {
+        padding: 1rem;
+      }
+
+      button {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧠 Neural Networks: A Journey Into AI</h1>
+    <p>Dive deep into Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN)</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <h2>🔍 Introduction to Neural Networks</h2>
+      <p>
+        Neural networks are at the heart of artificial intelligence. Modeled after the human brain, these networks consist of interconnected layers of nodes (neurons) that work together to recognize patterns, make predictions, and learn from data.
+      </p>
+      <p>
+        They are the foundation of deep learning and power applications like speech recognition, image classification, recommendation systems, and more.
+      </p>
+      <img src="https://www.marktechpost.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-23-at-10.46.58-PM-1024x499.png" alt="Neural Network Overview" />
+    </div>
+
+    <div class="card">
+      <h2>📚 Types of Neural Networks</h2>
+      <p>There are many kinds of neural networks, each designed to solve a different category of problems. Let's explore two fundamental ones:</p>
+    </div>
+
+    <div class="card">
+      <h2>🧾 Artificial Neural Network (ANN)</h2>
+      <p>
+        ANN is the most basic form of neural network. It consists of three main types of layers: input, hidden, and output. Each neuron receives inputs, multiplies them by weights, adds bias, and passes the result through an activation function.
+      </p>
+      <p>
+        ANNs are used in tasks like credit scoring, spam detection, and basic image and voice recognition.
+      </p>
+      <img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" alt="ANN Diagram" />
+      <img src="https://image2.slideserve.com/3870044/general-structure-of-ann-l.jpg" alt="ANN Layer Representation" />
+    </div>
+
+    <div class="card">
+      <h2>🖼️ Convolutional Neural Network (CNN)</h2>
+      <p>
+        CNNs are specialized for processing grid-like data such as images. Instead of fully connecting all neurons, CNNs use filters (kernels) to scan the image and detect features like edges, textures, and shapes.
+      </p>
+      <p>
+        They are the backbone of modern computer vision systems and are used in facial recognition, object detection, autonomous vehicles, and medical imaging.
+      </p>
+      <img src="https://dv-website.s3.amazonaws.com/uploads/2018/05/kf_ann_052418.png" alt="CNN Architecture" />
+      <img src="https://pub.mdpi-res.com/applsci/applsci-09-04209/article_deploy/html/images/applsci-09-04209-g001.png?1572358128" alt="CNN Feature Map" />
+    </div>
+    
+    <div class="card">
+        <h2>🚀 Check Out My ANN Project: Self-Bot</h2>
+        <p>
+          I've worked on a project that applies Artificial Neural Networks in building a Self-Bot. You can explore the project by clicking the link below.
+        </p>
+        <a href="https://self-bot-gamma.vercel.app/" target="_blank" class="project-link">Visit Self-Bot Project</a>
+      </div>
+
+    <div class="card">
+      <h2>📝 Interactive Quiz</h2>
+      <form id="quiz" onsubmit="submitQuiz(event)">
+        <!-- Quiz content here -->
+      </form>
+      <div id="quizResult"></div>
+    </div>
+
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Deep Neural Dive | Aesthetic in Black, Red & Purple</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
